@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>МастерДом</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark px-5">
+            <div class="row gx-4 d-none d-lg-flex">
+                <div class="col-lg-6 text-start">
+                    <div
+                        class="h-100 d-inline-flex align-items-center py-3 me-4"
+                    >
+                        <div
+                            class="btn-sm-square rounded-circle bg-primary me-2"
+                        >
+                            <small
+                                class="fa fa-map-marker-alt text-white"
+                            ></small>
+                        </div>
+                        <small
+                            >69/2 Ospanov Street 69/ "Нур Тобе", Ospanov Street,
+                            Алматы 050020, Казахстан</small
+                        >
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center py-3">
+                        <div
+                            class="btn-sm-square rounded-circle bg-primary me-2"
+                        >
+                            <small
+                                class="fa fa-envelope-open text-white"
+                            ></small>
+                        </div>
+                        <small>master_dom@gmail.com</small>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-end">
+                    <div
+                        class="h-100 d-inline-flex align-items-center py-3 me-4"
+                    >
+                        <div
+                            class="btn-sm-square rounded-circle bg-primary me-2"
+                        >
+                            <small class="fa fa-phone-alt text-white"></small>
+                        </div>
+                        <small>+77019148671</small>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center py-3">
+                        <div
+                            class="btn-sm-square rounded-circle bg-primary me-2"
+                        >
+                            <small class="far fa-clock text-white"></small>
+                        </div>
+                        <small>Пн - Пт : 09:00 - 21:00</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5"
+        >
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <h2 class="m-0 text-primary">МастерДом</h2>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-4 py-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Главная</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">О нас</a>
+                    <a href="service.html" class="nav-item nav-link">Услуги</a>
+                    <a href="testimonial.html" class="nav-item nav-link"
+                        >Отзывы</a
+                    >
+                    <a href="contact.html" class="nav-item nav-link"
+                        >Контакты</a
+                    >
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5">
+            <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Добро пожаловать в мир дизайна вашего
+                                        дома
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Создайте дом своей мечты вместе с нами.
+                                        Мы предлагаем профессиональные решения
+                                        по дизайну, чтобы сделать ваше
+                                        пространство уютным, функциональным и
+                                        стильным.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Откройте для себя искусство домашнего
+                                        дизайна
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Мы поможем воплотить ваши идеи в
+                                        реальность, создавая индивидуальные
+                                        дизайнерские проекты, которые отражают
+                                        ваш стиль и создают комфорт в вашем
+                                        доме.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-3.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Вдохновитесь на создание уникального
+                                        интерьера
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Исследуйте наши идеи для интерьера,
+                                        чтобы создать уникальное пространство,
+                                        которое будет отражать ваш стиль жизни и
+                                        предпочтения.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Facts Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="h-100 bg-dark p-4 p-xl-5">
+                            <div
+                                class="d-flex align-items-center justify-content-between mb-4"
+                            >
+                                <div
+                                    class="btn-square rounded-circle"
+                                    style="
+                                        width: 64px;
+                                        height: 64px;
+                                        background: #000000;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/icon/icon-3.png"
+                                        alt="Icon"
+                                    />
+                                </div>
+                                <h1
+                                    class="display-1 mb-0"
+                                    style="color: #000000"
+                                >
+                                    01
+                                </h1>
+                            </div>
+                            <h5 class="text-white">
+                                Запишитесь на бесплатную консультацию
+                            </h5>
+                            <hr class="w-25" />
+                            <span
+                                >Начните свой путь с бесплатной консультации с
+                                нашими дизайнерами. Во время встречи мы обсудим
+                                ваши идеи и видение вашего будущего дома, чтобы
+                                предложить лучшие решения для вашего
+                                проекта.</span
+                            >
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="h-100 bg-dark p-4 p-xl-5">
+                            <div
+                                class="d-flex align-items-center justify-content-between mb-4"
+                            >
+                                <div
+                                    class="btn-square rounded-circle"
+                                    style="
+                                        width: 64px;
+                                        height: 64px;
+                                        background: #000000;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/icon/icon-4.png"
+                                        alt="Icon"
+                                    />
+                                </div>
+                                <h1
+                                    class="display-1 mb-0"
+                                    style="color: #000000"
+                                >
+                                    02
+                                </h1>
+                            </div>
+                            <h5 class="text-white">
+                                Создание индивидуального плана
+                            </h5>
+                            <hr class="w-25" />
+                            <span
+                                >На основе вашей консультации мы разработаем
+                                персонализированный дизайн-проект, учитывающий
+                                все ваши предпочтения. Наши специалисты
+                                предложат решения, которые помогут сделать ваш
+                                дом уютным и стильным.</span
+                            >
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="h-100 bg-dark p-4 p-xl-5">
+                            <div
+                                class="d-flex align-items-center justify-content-between mb-4"
+                            >
+                                <div
+                                    class="btn-square rounded-circle"
+                                    style="
+                                        width: 64px;
+                                        height: 64px;
+                                        background: #000000;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/icon/icon-2.png"
+                                        alt="Icon"
+                                    />
+                                </div>
+                                <h1
+                                    class="display-1 mb-0"
+                                    style="color: #000000"
+                                >
+                                    03
+                                </h1>
+                            </div>
+                            <h5 class="text-white">
+                                Реализация и поддержка проекта
+                            </h5>
+                            <hr class="w-25" />
+                            <span
+                                >С вашим индивидуальным проектом мы поможем вам
+                                на всех этапах его реализации. Наша команда
+                                обеспечит профессиональное сопровождение и
+                                поддержку, чтобы ваш дом воплотил все задуманные
+                                идеи и стал по-настоящему уютным.</span
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts Start -->
+
+        <!-- About Start -->
+        <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+            <div class="container about px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div class="col-lg-6 ps-lg-0" style="min-height: 400px">
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/approach.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 about-text py-5 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="p-lg-5 pe-lg-0">
+                            <div
+                                class="bg-primary mb-3"
+                                style="width: 60px; height: 2px"
+                            ></div>
+                            <h1 class="display-5 mb-4">
+                                Комплексный и индивидуальный подход к дизайну
+                                вашего дома
+                            </h1>
+                            <p class="mb-4 pb-2">
+                                Наша команда предлагает комплексные и
+                                персонализированные решения для создания
+                                идеального дизайна вашего дома. Мы стремимся
+                                понять ваши уникальные потребности и
+                                предпочтения, чтобы предложить вам наилучшие
+                                варианты. Наш подход начинается с глубокого
+                                анализа вашего видения и ожиданий от будущего
+                                дома. Будь то разработка индивидуальных
+                                интерьеров, подбор материалов или создание
+                                функционального пространства, наши специалисты
+                                готовы провести вас на каждом этапе. Мы создаем
+                                детализированный проект, который соответствует
+                                вашим желаниям и обеспечивает комфорт и уют в
+                                вашем доме. Доверив нам этот процесс, вы
+                                получите непрерывную поддержку и
+                                профессиональные советы, что позволит сделать
+                                обоснованный выбор и создать дом вашей мечты. Мы
+                                помогаем раскрыть потенциал каждого пространства
+                                и добиваемся оптимальных результатов в
+                                реализации ваших идей.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Projects Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div
+                        class="bg-primary mb-3 mx-auto"
+                        style="width: 60px; height: 2px"
+                    ></div>
+                    <h1 class="display-5">
+                        Демонстрация нашего опыта и успешных проектов
+                    </h1>
+                    <p class="mb-5">
+                        Мы гордимся разнообразными и значимыми проектами,
+                        которые были успешно выполнены для наших клиентов. Наше
+                        портфолио демонстрирует наш профессионализм и мастерство
+                        в проектировании и создании уникальных домов. От
+                        разработки дизайна интерьеров до создания уютных и
+                        функциональных пространств — каждый проект иллюстрирует
+                        наше стремление к выдающимся результатам.
+                    </p>
+                </div>
+                <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-12 text-center">
+                        <ul class="list-inline mb-5" id="portfolio-flters">
+                            <li class="mx-2 active" data-filter="*">Все</li>
+                            <li class="mx-2" data-filter=".first">
+                                Завершённые проекты
+                            </li>
+                            <li class="mx-2" data-filter=".second">
+                                Текущие проекты
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-4 portfolio-container">
+                    <div
+                        class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="portfolio-inner">
+                            <img
+                                class="img-fluid w-100"
+                                src="img/portfolio-1.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <p class="text-primary mb-2">
+                                    Оптимизация жилого пространства
+                                </p>
+                                <h6 class="lh-base mb-0">
+                                    Мы помогли клиенту создать функциональную и
+                                    уютную планировку для их нового дома,
+                                    учитывая их уникальные потребности и стиль.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="portfolio-inner">
+                            <img
+                                class="img-fluid w-100"
+                                src="img/portfolio-2.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <p class="text-primary mb-2">
+                                    Совершенствование интерьера
+                                </p>
+                                <h6 class="lh-base mb-0">
+                                    Мы работали с клиентом для создания
+                                    стильного и практичного интерьера в
+                                    современном стиле.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="portfolio-inner">
+                            <img
+                                class="img-fluid w-100"
+                                src="img/portfolio-3.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <p class="text-primary mb-2">
+                                    Создание уютной гостиной
+                                </p>
+                                <h6 class="lh-base mb-0">
+                                    Мы разработали уютную и стильную гостиную
+                                    для семьи, использовав материалы и детали,
+                                    подчеркивающие уникальный характер дома.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="portfolio-inner">
+                            <img
+                                class="img-fluid w-100"
+                                src="img/portfolio-4.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <p class="text-primary mb-2">
+                                    Ландшафтный дизайн
+                                </p>
+                                <h6 class="lh-base mb-0">
+                                    Организовали ландшафтный проект, чтобы
+                                    создать гармоничное пространство вокруг
+                                    дома.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="portfolio-inner">
+                            <img
+                                class="img-fluid w-100"
+                                src="img/portfolio-5.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <p class="text-primary mb-2">
+                                    Разработка дизайна спальни
+                                </p>
+                                <h6 class="lh-base mb-0">
+                                    Помогли клиенту создать спокойную и
+                                    комфортную атмосферу для отдыха в спальне.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="portfolio-inner">
+                            <img
+                                class="img-fluid w-100"
+                                src="img/portfolio-6.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <p class="text-primary mb-2">
+                                    Трансформация кухни
+                                </p>
+                                <h6 class="lh-base mb-0">
+                                    Спроектировали функциональную и современную
+                                    кухню с учетом потребностей всей семьи.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Projects End -->
+
+        <!-- Feature Start -->
+        <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+            <div class="container feature px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div
+                        class="col-lg-6 feature-text py-5 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="p-lg-5 ps-lg-0">
+                            <div
+                                class="bg-primary mb-3"
+                                style="width: 60px; height: 2px"
+                            ></div>
+                            <h1 class="display-5 mb-5">
+                                Ваш надежный партнер в проектировании домов
+                            </h1>
+                            <p class="mb-4 pb-2">
+                                Выбирая нашу команду, вы выбираете опытных
+                                специалистов, преданных вашему комфорту и
+                                эстетике. Наш комплексный подход и глубокое
+                                понимание архитектуры и дизайна интерьеров
+                                выделяют нас среди других. Мы предлагаем
+                                индивидуальные решения, которые помогут вам
+                                создать идеальный дом, отражающий ваш стиль и
+                                потребности. Вот почему мы — ваш правильный
+                                выбор:
+                            </p>
+                            <div class="row g-4">
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-square bg-white rounded-circle"
+                                            style="width: 64px; height: 64px"
+                                        >
+                                            <img
+                                                class="img-fluid"
+                                                src="img/icon/icon-7.png"
+                                                alt="Иконка"
+                                            />
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Надежность
+                                            </p>
+                                            <h5 class="mb-0">Безопасность</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-square bg-white rounded-circle"
+                                            style="width: 64px; height: 64px"
+                                        >
+                                            <img
+                                                class="img-fluid"
+                                                src="img/icon/icon-10.png"
+                                                alt="Иконка"
+                                            />
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Качество
+                                            </p>
+                                            <h5 class="mb-0">Услуг</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-square bg-white rounded-circle"
+                                            style="width: 64px; height: 64px"
+                                        >
+                                            <img
+                                                class="img-fluid"
+                                                src="img/icon/icon-3.png"
+                                                alt="Иконка"
+                                            />
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Умные
+                                            </p>
+                                            <h5 class="mb-0">Стратегии</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-square bg-white rounded-circle"
+                                            style="width: 64px; height: 64px"
+                                        >
+                                            <img
+                                                class="img-fluid"
+                                                src="img/icon/icon-2.png"
+                                                alt="Иконка"
+                                            />
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Круглосуточная
+                                            </p>
+                                            <h5 class="mb-0">Поддержка</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pe-lg-0" style="min-height: 400px">
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/feature.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- Blog Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div
+                        class="bg-primary mb-3 mx-auto"
+                        style="width: 60px; height: 2px"
+                    ></div>
+                    <h1 class="display-5">
+                        Оставайтесь в курсе: Экспертные идеи и тенденции в
+                        дизайне домов
+                    </h1>
+                    <p class="mb-5">
+                        Добро пожаловать в наш новый раздел блога, где мы
+                        делимся ценными идеями, советами и тенденциями в
+                        проектировании домов. Наш блог предназначен для того,
+                        чтобы держать вас в курсе новейших методов
+                        строительства, дизайна интерьеров и архитектурных
+                        решений. Погрузитесь в наши статьи, чтобы узнать больше
+                        о современных тенденциях в проектировании и получить
+                        вдохновение для вашего будущего дома.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item">
+                            <div class="overflow-hidden position-relative">
+                                <img
+                                    style="
+                                        width: 100%;
+                                        height: 400px;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/blog-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">
+                                    Тайны проектирования: Как создать идеальный
+                                    дом
+                                </h5>
+                                <span>
+                                    Узнайте о самых эффективных стратегиях
+                                    проектирования вашего дома. В этой статье
+                                    рассматриваются ключевые шаги и
+                                    рекомендации, которые помогут вам
+                                    максимизировать комфорт и функциональность
+                                    вашего пространства. Изучите актуальные
+                                    тренды, методы планирования и лучшие
+                                    практики дизайна интерьеров.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item">
+                            <div class="overflow-hidden position-relative">
+                                <img
+                                    style="
+                                        width: 100%;
+                                        height: 400px;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/blog-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">
+                                    Путешествие в мир проектирования: Понимание
+                                    современных строительных технологий
+                                </h5>
+                                <span>
+                                    Задумывались ли вы о том, как современные
+                                    дома проектируются? Эта статья подробно
+                                    описывает весь процесс — от концепции до
+                                    завершения строительства. Получите
+                                    представление о технологиях и методах,
+                                    используемых в современном строительстве, и
+                                    поймите, как архитектурные решения влияют на
+                                    качество жизни.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">МастерДом</h5>
+                        <p>
+                            Мы специализируемся на проектировании домов и
+                            создании уникальных пространств, которые отвечают
+                            вашим потребностям и стилю жизни. Наша команда
+                            работает над тем, чтобы обеспечить функциональность
+                            и эстетику каждого проекта, ориентируясь на
+                            современные тенденции и инновации в архитектуре и
+                            дизайне.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">Адрес</h5>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>
+                            69/2 Ospanov Street 69/ "Нур Тобе", Ospanov Street,
+                            Алматы 050020, Казахстан
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i
+                            >master_dom@gmail.com
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i>+77019148671
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">Быстрые ссылки</h5>
+                        <a class="btn btn-link" href="about.html">О нас</a>
+                        <a class="btn btn-link" href="contact.html"
+                            >Связаться с нами</a
+                        >
+                        <a class="btn btn-link" href="service.html"
+                            >Наши услуги</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Условия использования</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Политика конфиденциальности</a
+                        >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">Рассылка новостей</h5>
+                        <p>
+                            Спасибо за посещение нашего сайта. Мы готовы помочь
+                            вам создать дом вашей мечты и надеемся на
+                            сотрудничество.
+                        </p>
+                        <div class="position-relative w-100">
+                            <input
+                                class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5"
+                                type="text"
+                                placeholder="Email"
+                                id="email"
+                            />
+                            <button
+                                type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                                id="submit"
+                                onclick="sendForm()"
+                            >
+                                Подписаться
+                            </button>
+                        </div>
+                        <div id="result"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование файлов cookie
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует файлы cookie для обеспечения вам более
+                    удобного и актуального опыта при просмотре.
+                    <a href="#">Узнать больше...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
